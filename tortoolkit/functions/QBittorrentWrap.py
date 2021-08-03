@@ -519,14 +519,14 @@ async def register_torrent(entity, message, user_msg=None, magnet=False, file=Fa
                 "Download will be automatically started after 180s of no action.",
                 buttons=[
                     [
-                        KeyboardButtonUrl("Choose File from link", urll),
+                        KeyboardButtonUrl("📦 Choose File from link", urll),
                         KeyboardButtonCallback(
-                            "Get Pincode", data=pincodetxt.encode("UTF-8")
+                            "🔐 Get Pincode", data=pincodetxt.encode("UTF-8")
                         ),
                     ],
                     [
                         KeyboardButtonCallback(
-                            "Done Selecting Files.",
+                            "✅ Done Selecting Files.",
                             data=f"doneselection {omess.sender_id} {omess.id}".encode(
                                 "UTF-8"
                             ),
@@ -573,14 +573,14 @@ async def register_torrent(entity, message, user_msg=None, magnet=False, file=Fa
             message = await message.edit(
                 buttons=[
                     [
-                        KeyboardButtonUrl("Choose File from link", urll),
+                        KeyboardButtonUrl("📦 Choose File from link", urll),
                         KeyboardButtonCallback(
-                            "Get Pincode", data=pincodetxt.encode("UTF-8")
+                            "🔐 Get Pincode", data=pincodetxt.encode("UTF-8")
                         ),
                     ],
                     [
                         KeyboardButtonCallback(
-                            "Done Selecting Files.",
+                            "✅ Done Selecting Files.",
                             data=f"doneselection {omess.sender_id} {omess.id}".encode(
                                 "UTF-8"
                             ),
