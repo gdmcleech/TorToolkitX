@@ -638,7 +638,7 @@ async def set_password_zip(message):
 
 
 async def start_handler(event):
-    msg = "Hello This is TorToolkitX running on heroku an instance of <a href='https://github.com/XcodersHub/TorToolkitX'>This Repo</a>. Try the repo for yourself and dont forget to put a STAR and fork."
+    msg = "Hello This is GDMC Leech Bot of <a href='https://t.me/GdriveMirrorCloud'>Gdrive Mirror Cloud</a>. Join <a href='https://t.me/gdmcleech'>GDMC Leech Channel</a>"
     await event.reply(msg, parse_mode="html")
 
 
@@ -793,11 +793,9 @@ async def about_me(message):
     diff = Human_Format.human_readable_timedelta(diff)
 
     msg = (
-        "<b>Name</b>: <code>TorToolkitX-Heroku</code>\n"
-        f"<b>Version</b>: <code>{__version__}</code>\n"
+        "<b>Name</b>: <code>GDMC Leech</code>\n"
         f"<b>Telethon Version</b>: {telever}\n"
         f"<b>Pyrogram Version</b>: {pyrover}\n"
-        "<b>Modified By</b>: @XcodersHub\n\n"
         "<u>Currents Configs:-</u>\n\n"
         f"<b>Bot Uptime:-</b> {diff}\n"
         "<b>Torrent Download Engine:-</b> <code>qBittorrent [4.3.0 fix active]</code> \n"
@@ -808,20 +806,14 @@ async def about_me(message):
         f"<b>Leech:- </b> <code>{leen}</code>\n"
         f"<b>Rclone:- </b> <code>{rclone}</code>\n"
         "\n"
-        f"<b>Latest {__version__} Changelog :- </b>\n"
-        "1.DB Optimizations.\n"
-        "2.Database handling on disconnections..\n"
-        "3.Support for ARM devices.\n"
-        "4.Gdrive Support for PYTDL and YTDL\n"
-        "5.Upload YT Playlist even when some vids are errored.\n"
-        "6.Changed /server menu. Add /speedtest\n"
-        "7.Minor fixes.\n"
-        "8.Deploy takes less then 2 mins now.\n"
-        "9.MegaDL added.\n"
-        "10.Overall download and upload progress.\n"
-        "11.Pixeldrain DL support.\n"
-        "12.Alert on when the bot boots up.\n"
-        "<b>13.Fixed Heroku Stuff.</b>\n"
+        f"<b>Feature :- </b>\n"
+        "1. Using the best torrent client to deal with torrent : [qBittorrent]"
+        "2. You can choose which files you want to download from the torrent."
+        "3. Group members have their own settings like:\n- Permanent thumbnail support.\n- Users can choose if they want a file or video.\n- Load in their own rclone config so that the torrent/direct link is uploaded to their drive. (Work in Progress)"
+        "4. Extraction of ZIP, TAR, ISO, RAR wih and without password. If you chose to extarct the archive and you enter the password wrong it will prompt you to enter the password upto 3 times after that zip will be uploaded as it is."
+        "5. Sorted YTDL download menu."
+        "6. Zip and upload also available."
+        "7. InstaDL support"
     )
 
     await message.reply(msg, parse_mode="html")
