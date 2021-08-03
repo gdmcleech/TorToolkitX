@@ -278,7 +278,7 @@ async def set_priority(request):
 @routes.get("/")
 async def homepage(request):
     return web.Response(
-        text='<h1>🤗GDMC Leech webserver is Up and Running successfully🟢</h1>\n<h2>✅ Join GDMC Leech <a href="https://t.me/gdmcleech">GDMC Leech</a></h2>\n<h2>♻️Join Gdrive Mirror Cloud <a href="https://t.me/GdriveMirrorCloud">TG channel</a></h2>',
+        text='<h1>🤗GDMC Leech webserver is Up and Running successfully🟢</h1>\n<h2>✅ Join GDMC Leech <a href="https://t.me/gdmcleech">GDMC Leech</a></h2>\n<h2>♻️ Join Gdrive Mirror Cloud <a href="https://t.me/GdriveMirrorCloud">TG channel</a></h2>',
         content_type="text/html",
     )
 
