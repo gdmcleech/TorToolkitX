@@ -809,7 +809,7 @@ async def about_me(message):
         f"<b>Feature :- </b>\n"
         "1. Using the best torrent client to deal with torrent : [qBittorrent]\n"
         "2. You can choose which files you want to download from the torrent.\n"
-        "3. Group members have their own settings like:\n- Permanent thumbnail support.\n- Users can choose if they want a file or video.\n- Load in their own rclone config so that the torrent/direct link is uploaded to their drive. (Work in Progress)\n"
+        "3. Group members have their own settings like:\n- Permanent thumbnail support.\n- Users can choose if they want a file or video.\n- Load in their own rclone config so that the torrent/direct link is uploaded to their drive. (Currently Unavailable, You will be notified when it becomes available)\n"
         "4. Extraction of ZIP, TAR, ISO, RAR wih and without password. If you chose to extarct the archive and you enter the password wrong it will prompt you to enter the password upto 3 times after that zip will be uploaded as it is.\n"
         "5. Sorted YTDL download menu.\n"
         "6. Zip and upload also available.\n"
