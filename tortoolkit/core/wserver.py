@@ -289,14 +289,14 @@ async def e404_middleware(app, handler):
             response = await handler(request)
             if response.status == 404:
                 return web.Response(
-                    text="<h1>404: Page not found</h2><br><h3>TorToolKitX</h3>",
+                    text="<h1>404: Page not found</h2><br><h3>GDMC Leech</h3>",
                     content_type="text/html",
                 )
             return response
         except web.HTTPException as ex:
             if ex.status == 404:
                 return web.Response(
-                    text="<h1>404: Page not found</h2><br><h3>TorToolKitX</h3>",
+                    text="<h1>404: Page not found</h2><br><h3>GDMC Leech</h3>",
                     content_type="text/html",
                 )
             raise
